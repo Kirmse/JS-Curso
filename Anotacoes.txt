@@ -1,0 +1,18 @@
+No Js, o sinal de igual "=" sempre sera lido como RECEBE, nunca como igual, mas somento o sinal único "=".
+
+Var = Variáveis --->
+
+== number
+== string
+==boolean (true or false)
+
+- Podem começar com letra, $ ou _
+- Não podem começar com números
+- É possivel usar letras ou números
+- É possível usar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palabras reservadas
+- Maiúscula e Minúscula no js faz diferença
+- Tente escplher nomes coerentes para as Variáveis
+
+https://www.youtube.com/watch?v=Vbabsye7mWo stop 26:00
