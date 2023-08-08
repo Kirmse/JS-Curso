@@ -1,10 +1,22 @@
 No Js, o sinal de igual "=" sempre sera lido como RECEBE, nunca como igual, mas somento o sinal único "=".
 
-Var = Variáveis --->
+Var = Variáveis ---> 
 
-== number
-== string
-==boolean (true or false)
+-> number   
+    Infinity
+    NaN
+-> string
+-> boolean (true or false)
+-> null
+-> undefined
+-> object
+    Array 
+-> function
+
+Para saber o tipo de uma var, é só digitar o comando "typeof"
+
+
+Regras para nomear uma variável:
 
 - Podem começar com letra, $ ou _
 - Não podem começar com números
@@ -15,4 +27,3 @@ Var = Variáveis --->
 - Maiúscula e Minúscula no js faz diferença
 - Tente escplher nomes coerentes para as Variáveis
 
-https://www.youtube.com/watch?v=Vbabsye7mWo stop 26:00
