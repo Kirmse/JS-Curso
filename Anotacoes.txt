@@ -27,3 +27,26 @@ Regras para nomear uma variável:
 - Maiúscula e Minúscula no js faz diferença
 - Tente escplher nomes coerentes para as Variáveis
 
+-----------------------------------------------------------------------------
+
+L E M B R E T E S 
+
+O "+" do java script server para CONCATENAÇÃO e tembém para ADIÇÃO
+
+Formas de formatação de string:
+'Eu estou aprendendo n'      <- Não faz interpolação
+'Eu estou aprendendo' + n    <- Usa concatenação
+`Eu estou aprendendo ${n}`   <- Usa template string
+
+
+Number.parseInt(n)                Se quiser convertar para Inteiro
+Number.parseFloat(n)              Se quiser convertar para Real
+Number(n)                         Converte automaticamente para Inteiro ou Real
+
+String(n)                         Converter para string 
+n.toString()                      Converter "n" pra String
+
+s.length               // quantos caracteres a string tem
+s.toUpperCase()        // tudo para 'MAIÚSCULAS'
+s.toLowerCase()        // tudo apra 'minúsculas'
+
