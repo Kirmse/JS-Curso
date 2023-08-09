@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>002</title>
+    <style>
+        body {
+            background-color: black;
+            color: antiquewhite;
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: rgb(157, 0, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Você passou no test!</h1><br>
+    <p id="pa"></p>
+    <script>
+        window.alert('Opa! Espera ai!!!') // abordagem
+
+        var nome = window.prompt('Quem é você???') // nome usando "getElementBy"
+        var paragrafo = document.getElementById('pa')
+        paragrafo.innerText = ` Seja bem vindo ${nome} ao meu site!`
+
+        var idade = Number.parseInt(window.prompt('Qual é a sua idade?...')) // idade usando "Number.parseInt"
+
+        window.confirm('Hm... aperte "ok" se você for do bem!') // confirmação
+
+   </script>
+</body>
+
+</html>
