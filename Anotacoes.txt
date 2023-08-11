@@ -51,7 +51,7 @@ s.toUpperCase()        // tudo para 'MAIÚSCULAS'
 s.toLowerCase()        // tudo apra 'minúsculas'
 
 
-Formatando Números
+Formatando Números ------------------------------------------------------------------------
 
 var n1 = 1543.5
 n1 = '1543.5'
@@ -69,3 +69,19 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 'R$ 1,543.50'
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 'US$ 1.543,50'
+
+Aritiméticos ---------------------------------------------------------------------------
+ 
+5  +   2  -> 7
+5  -   2  -> 3
+5  *   2  -> 10
+5  /   2  -> 2.5
+5  %   2  -> 1        // não é porcentagem, isso é o resto da divisão, 8/5 : 5 - 8 = "3" // esse '3' é o resto
+5  **  2  -> 25
+
+Ordem de precedência
+
+1º ()
+2º **
+3º * , / , %
+4º + , -
