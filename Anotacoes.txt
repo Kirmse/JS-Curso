@@ -50,3 +50,22 @@ s.length               // quantos caracteres a string tem
 s.toUpperCase()        // tudo para 'MAIÚSCULAS'
 s.toLowerCase()        // tudo apra 'minúsculas'
 
+
+Formatando Números
+
+var n1 = 1543.5
+n1 = '1543.5'
+
+//se eu quiser q ela tenha 2 casas decimias
+n1.toFixed(2)
+'1543.50'
+
+//se eu quiser mudar o "." para ","
+n1.toFixed(2).replace('.', ',')
+'1543,50'
+
+//agora, se eu quiser colocar em moeda de qualquer país
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 1,543.50'
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+'US$ 1.543,50'
