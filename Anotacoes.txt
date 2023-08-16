@@ -70,6 +70,14 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 'US$ 1.543,50'
 
+
+
+
+
+<------------------------------------ O P E R A D O R E S  ------------------------------------>
+
+
+
 Aritiméticos ---------------------------------------------------------------------------
  
 5  +   2  -> 7
@@ -85,3 +93,30 @@ Ordem de precedência
 2º **
 3º * , / , %
 4º + , -
+
+Relacionais ---------------------------------------------------------------------------
+
+>    <- maior que 
+<    <- menor que 
+>=   <- maior igual a 
+<=   <- menor igual a 
+==   <- igual a 
+===  <- igual a (tanto em valor quanto em tipo)
+!=   <- não igual // diferente
+!==  <- desigual restrito
+
+
+agora, 5 == 5 ?  (sim)
+mas... 5 == '5' ? (você até pensa "não", mas a resposta é SIM )
+Para o javascript a diferença de tipo não difere nessa situação, porque eles tem a mesma grandeza.
+Mas para diferenciar tanto o "valor" quanto o "tipo" se ussa:
+5 === '5'  (e a respota é NÃO)
+
+
+Lógicos ---------------------------------------------------------------------------
+
+!       <- Negação        (NÃO quero uma caneta azul)
+&&      <- Conjução       (Quero uma caneta azul E vermelha)
+||      <- Disjunção      (Quero uma caneta azul OU vermelha)
+
+https://www.youtube.com/watch?v=BP63NhITvao 14:57
