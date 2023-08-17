@@ -93,6 +93,11 @@ Ordem de precedência
 2º **
 3º * , / , %
 4º + , -
+5º > , < , >= , <=
+6º !
+7º &&
+8º ||
+
 
 Relacionais ---------------------------------------------------------------------------
 
@@ -119,4 +124,9 @@ Lógicos -----------------------------------------------------------------------
 &&      <- Conjução       (Quero uma caneta azul E vermelha)
 ||      <- Disjunção      (Quero uma caneta azul OU vermelha)
 
-https://www.youtube.com/watch?v=BP63NhITvao 14:57
+
+Ternário ---------------------------------------------------------------------------
+
+teste  ?  true  :  false
+
+média >= 7.0  ?  "Aprovado"  :  "Reprovado"
