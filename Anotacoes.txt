@@ -139,3 +139,13 @@ DOM ↴
 D ocument
 O bject 
 M odel
+
+
+Selecionando --------------------------------------------
+
+por Marca ↴
+   getElementsByTagName()
+por ID 
+por Nome 
+por Classe
+por Seletor
