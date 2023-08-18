@@ -20,7 +20,11 @@
     <p>aprendendo a usar <strong>DOM</strong> em Js.</p>
     <div>clique em mim</div>
     <Script>
-        
+        var p1 = document.getElementsByTagName('p')[0] // se eu quero o
+        // primeiro paragrafo, vou usar o [0], o segundo é [1] e assim vai.
+        window.document.write('Aqui ta escrito assim: ' + p1.innerText)
+        p1.style.color = 'yellow'
+
     </Script>
 </body>
 </html>
