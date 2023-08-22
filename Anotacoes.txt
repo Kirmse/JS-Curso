@@ -145,7 +145,10 @@ Selecionando --------------------------------------------
 
 por Marca ↴
    getElementsByTagName()
-por ID 
-por Nome 
-por Classe
+por ID ↴
+    getElementById()
+por Nome ↴
+    getElementsByName()
+por Classe ↴
+    getElementsByClassName()  
 por Seletor
