@@ -18,8 +18,34 @@
     </style>
 </head>
 <body>  
-        <div id="area">
+        <div id="area" onclick="clicar()"> <!-- pra diminuir pode se fazer assim ↴-->
             Interaja...
         </div>
+
+        <script>
+            //aqui: 
+            var a = window.document.getElementById('area')
+            a.addEventListener('mouseenter', entrar)
+            a.addEventListener('mouseout', sair)
+            a.addEventListener('mousedown', continuar)
+            
+
+            function clicar() {
+                a.innerText = 'Clicou'
+            }
+            function entrar() {
+                a.innerText = 'Adentrou!'
+            }
+            function sair() {
+                a.innerText = 'Saiu...'
+            }
+            function continuar() {
+                a.innerText = 'AIINNNNN'
+                document.getElementById('area').style.background = 'pink'
+                
+            }
+        </script>
 </body>
 </html>
+
+https://www.youtube.com/watch?v=wWnBB-mZIvY 20:00
