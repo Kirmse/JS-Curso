@@ -140,6 +140,16 @@ D ocument
 O bject 
 M odel
 
+Arvore DOM ---------------------------------
+
+window ↴---------↴---------↴
+   location /document / history 
+                ↴          
+               html
+                ↴
+            head / body
+
+            e por ai vai.
 
 Selecionando --------------------------------------------
 
