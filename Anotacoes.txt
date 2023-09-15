@@ -155,5 +155,5 @@ por Seletor ↴
     querySelector()
     querySelectorAll() ↴    
         . -> Class
-        # -> ID
+        # -> 
     ex: querySelector('div.msg')
