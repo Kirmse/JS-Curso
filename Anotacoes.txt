@@ -176,3 +176,16 @@ if (condição) {
 } else {
     // quando a condição for falsa
 }
+
+Condição aninhada 
+
+if (condição) {
+    
+} else {
+    if (condição) {
+        // segunda condiçãoi
+    } else {
+        
+    }
+           
+}
