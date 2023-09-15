@@ -167,3 +167,12 @@ por Seletor ↴
         . -> Class
         # -> 
     ex: querySelector('div.msg')
+
+
+Condições ------------------------------------------------
+
+if (condição) {
+    // quando a condição for verdadeira
+} else {
+    // quando a condição for falsa
+}
