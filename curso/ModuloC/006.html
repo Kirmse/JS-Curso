@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos DOM</title>
 
     <style>
+        div#area2 {
+            color: aqua;
+            font: normal 18pt Arial;
+            background-color: rgb(31, 31, 31);
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
         div#area {
             color: white;
             font: normal 18pt Arial;
@@ -17,35 +28,63 @@
         }
     </style>
 </head>
-<body>  
-        <div id="area" onclick="clicar()"> <!-- pra diminuir pode se fazer assim ↴-->
-            Interaja...
-        </div>
 
-        <script>
-            //aqui: 
-            var a = window.document.getElementById('area')
-            a.addEventListener('mouseenter', entrar)
-            a.addEventListener('mouseout', sair)
-            a.addEventListener('mousedown', continuar)
-            
+<body>
+    
+    <div id="area"> <!-- Jeito prático de fazer -->
+        Interaja...
+    </div>
+    <br> 
+    <div id="area2" onclick="clicarr()" onmousedown="pressionarr()" onmouseenter="entrarr()" onmouseout="sairr()"> <!-- Jeito amis extenso de se fazer -->
+        Interaja AGORA!
+    </div>
 
-            function clicar() {
-                a.innerText = 'Clicou'
-            }
-            function entrar() {
-                a.innerText = 'Adentrou!'
-            }
-            function sair() {
-                a.innerText = 'Saiu...'
-            }
-            function continuar() {
-                a.innerText = 'AIINNNNN'
-                document.getElementById('area').style.background = 'pink'
-                
-            }
-        </script>
+    <script>
+        //Area 
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        a.addEventListener('mousedown', continuar)
+
+
+        function clicar() {
+            a.innerText = 'Clicou'
+            document.getElementById('area').style.background = "black"
+        }
+        function entrar() {
+            a.innerText = 'Adentrou!'
+        }
+        function sair() {
+            a.innerText = 'Saiu...'
+        }
+        function continuar() {
+            a.innerText = 'AIINNNNN'
+            document.getElementById('area').style.background = 'pink'
+
+        }
+
+        //Area2
+        var b = document.getElementById('area2')
+
+        function clicarr() {
+            b.innerText = 'Clicou'
+            document.getElementById('area2').style.background = 'gray'
+            document.getElementById('area2').style.color = 'aqua'
+        }
+        function entrarr() {
+            b.innerText = 'Entrou'
+        }
+        function sairr() {
+            b.innerText = 'Sair'
+        }
+        function pressionarr() {
+            b.innerText = 'Pressionou'
+            document.getElementById('area2').style.background = 'aqua'
+            document.getElementById('area2').style.color = 'black'
+        }
+
+    </script>
 </body>
-</html>
 
-https://www.youtube.com/watch?v=wWnBB-mZIvY 20:00
+</html>
