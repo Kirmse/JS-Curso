@@ -183,9 +183,26 @@ if (condição) {
     
 } else {
     if (condição) {
-        // segunda condiçãoi
+        // segunda condição
     } else {
         
     }
            
 } 
+
+condição Múltipla -------------------------------------------
+
+Switch (expressão) {
+    case valor 1:
+        "código"
+        break               <-- tem que ter o break
+    case valor 2:
+        "código"
+        break
+    case valor 3:
+        "código"
+        break
+    default:            <-- esse "default" é como se fosse o else do "is".
+        "código"
+        break
+}
