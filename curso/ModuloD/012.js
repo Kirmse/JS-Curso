@@ -7,8 +7,8 @@
 //     console.log('Voto obrigatório')
 // }
 
-
-var hora = 24
+var agora = new Date()
+var hora = agora.getHours()
 
 if (hora > 0 && hora < 25) {
 console.log(`Agora são exatamente ${hora} horas.`)
