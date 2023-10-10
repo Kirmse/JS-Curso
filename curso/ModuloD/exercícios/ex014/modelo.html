@@ -10,15 +10,16 @@
 
 <body>
     <header>
-        <h1>Título</h1>
+        <h1 id="titulo">Hora do Dia</h1>
     </header>
-    <section>
-        <div>
-            Tentando...
+    <section id="section">
+        <div id="msg">
+            <strong>Click na imagem para continuar!</strong>
         </div>
-        <div>
-            Hello!
+        <div id="foto" onclick="carregar()">
+            <img id="imagem" src="relogio.png" alt="Foto do dia">
         </div>
+        <h4 id="voltar" onclick="voltar()" style="display: none;">Voltar</h4>
     </section>
     <footer>
         <p>&copy; negao_o</p>

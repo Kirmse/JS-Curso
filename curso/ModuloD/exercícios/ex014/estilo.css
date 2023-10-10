@@ -12,10 +12,17 @@ section {
     background:black;
     color: white;
     border-radius: 15px;
-    padding: 15pxa;
+    padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.688);
+}
+div {
+    text-align: center;
+    padding: 8px;
+}
+h4 {
+    text-align: center;
 }
 
 footer {
