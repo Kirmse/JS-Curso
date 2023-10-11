@@ -13,9 +13,29 @@ section {
     color: white;
     border-radius: 15px;
     padding: 15px;
+    min-width: 0%;
+    max-width: 75%;
     width: 500px;
     margin: auto;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.688);
+    
+}
+
+label#butao{
+    background-color: rgb(0, 193, 0);
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    border: 1px solid rgb(0, 193, 0);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+input#txtano {
+    border: 1px solid #000; /* Adicione uma borda preta de 1 pixel */
+    border-radius: 5px; /* Adicione cantos arredondados */
+    padding: 5px; /* Adicione espaço interno para melhor aparência */
+    font-size: 14px; /* Tamanho da fonte do input */
+
 }
 
 footer {
