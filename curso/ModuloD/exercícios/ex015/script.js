@@ -10,7 +10,7 @@ function verificar() {
         var formularioSexo = document.getElementsByName('radsex')
         var idade = ano - formularioAno
         var genero = ''
-        var img = document.createElement('img')
+        var img = document.createElement('img')  // <---- Criando um IMG 
         img.setAttribute('id', 'foto')
 
         if (formularioSexo[0].checked) {
