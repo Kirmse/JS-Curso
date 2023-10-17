@@ -206,3 +206,18 @@ Switch (expressão) {
         "código"
         break
 }
+
+
+Repetições ---------------------------------------------------------------------------
+
+while (condição) {        //<--- essa condição vai acontecer quando for verdadeira
+    [bloco]
+}
+
+------- exemplo -------
+
+uma pizza com 8 fatias...
+
+while (temFatia()) {   // <---- enquanto tem fatia
+    comerFatia()
+}                      // ---> depois que não tem fatia, acaba o laço de repetição
