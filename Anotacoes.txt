@@ -221,3 +221,20 @@ uma pizza com 8 fatias...
 while (temFatia()) {   // <---- enquanto tem fatia
     comerFatia()
 }                      // ---> depois que não tem fatia, acaba o laço de repetição
+
+
+
+Repetição for e while -----------------------------------------------------------------------------------
+
+var c = 1                       <-- declara a variável
+
+while (c<=10) {                 <-- colocar a condição
+    [bloco]
+    c++                         <-- faz o incremento
+} 
+
+-------------------------------------
+
+for (var c=1 ; c<=10; c++ ) {        <-- variavel é declarada // condição // incremento
+    [bloco]
+}
