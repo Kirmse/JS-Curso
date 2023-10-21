@@ -8,15 +8,15 @@ var c = 1
 do {
     console.log(`Tudo bem? ${c}`)
     c++  // c = c + 1
-} while (c <= 100)
+} while (c <= 5)
 
 
 // Enquanto ---------------------------------------------------
-
-// while (c <= 100) {
-//     console.log(`Tudo bem? ${c}`)
-//     c++  // c = c + 1
-// }
+c = 1
+while (c <= 5) {
+    console.log(`Tudo bem? ${c}`)
+    c++  // c = c + 1
+}
 
 // manual ---------------------------------------------------
 
